@@ -1,6 +1,7 @@
 module github.com/prometheus/node_exporter
 
 go 1.22.0
+toolchain go1.24.1
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
@@ -29,7 +30,7 @@ require (
 	github.com/prometheus/procfs v0.15.2-0.20240603130017-1754b780536b // == v0.15.1 + https://github.com/prometheus/procfs/commit/1754b780536bb81082baa913e04cc4fff4d2baea
 	github.com/safchain/ethtool v0.5.10
 	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0
-	golang.org/x/sys v0.30.0
+	golang.org/x/sys v0.31.0
 	howett.net/plist v1.0.1
 )
 
