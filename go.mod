@@ -35,7 +35,7 @@ require (
 
 require (
 	github.com/getlantern/osversion v0.0.0-20240418205916-2e84a4a4e175
-	github.com/jaypipes/ghw v0.15.0
+	github.com/jaypipes/ghw v0.17.0
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/yumaojun03/dmidecode v0.1.4
 )
